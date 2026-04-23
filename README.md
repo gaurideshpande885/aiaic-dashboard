@@ -1,16 +1,27 @@
-# React + Vite
+# AIAIC District Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A district-level agricultural intelligence dashboard built for the AIAIC Interface Layer (Task 3).
 
-Currently, two official plugins are available:
+**Built by:** Gauri Deshpande
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it does
+Allows users to select a district, crop, and season to view:
+- Yield signals and trends
+- Mandi price signals  
+- Water stress indicators
+- Income simulation (best/average/worst case scenarios)
 
-## React Compiler
+## Tech Stack
+- React 19 + Vite
+- Tailwind CSS v4
+- Recharts (bar chart visualization)
+- Mock data (Mahesh + Deep pipeline format)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to run
+```bash
+npm install
+npm run dev
+```
+Opens at: http://localhost:5173
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
